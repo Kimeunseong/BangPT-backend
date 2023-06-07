@@ -224,7 +224,7 @@ def model():
     print('4번 완료')
 
     # 5. 모델 예측 실행하여 pred에 저장한다. pred.shape = (5, 308)
-    model = load_model('/Users/estar-kim/Desktop/2023/mju/캡스톤디자인/model/learned_models/model_0520_132_ver1.h5')
+    model = load_model('static/model/model_0520_132_ver1.h5')
     pred = model.predict(inputs)
     print('5번 완료')
 
