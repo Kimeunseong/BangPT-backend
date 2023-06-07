@@ -61,4 +61,4 @@ app.register_blueprint(Video_show_bp, url_prefix='/video')
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=821, debug=True)
+    app.run(host='0.0.0.0', port=821)
