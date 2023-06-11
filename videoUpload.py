@@ -7,10 +7,8 @@ VideoUpload_bp = Blueprint('video_upload', __name__) # 따로 선언하기
 
 
 
-UPLOAD_FOLDER = '/Users/estar-kim/Desktop/2023/mju/캡스톤디자인/flask/bangpt-flask_0604/static/video'  # 동영상이 저장될 경로
+UPLOAD_FOLDER = '/Users/estar-kim/Desktop/2023/mju/캡스톤디자인/flask/bangPT-Flask/static/video/'  # 동영상이 저장될 경로
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
-
 
 @VideoUpload_bp.route('/upload', methods=['POST'])
 def upload():

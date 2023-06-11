@@ -170,8 +170,8 @@ def model():
 
 
 
-    input_video_path = '/Users/estar-kim/Desktop/2023/mju/캡스톤디자인/flask/bangpt-flask_0604/static/video/video.mp4' # 인풋 동영상 경로
-    split_video_path = '/Users/estar-kim/Desktop/2023/mju/캡스톤디자인/flask/bangpt-flask_0604/static/video_split/output_segment'
+    input_video_path = 'static/video/video.mp4' # 인풋 동영상 경로
+    split_video_path = 'static/video_split/output_segment'
 
 
     # 1. full video를 5개로 분할하여 경로(split_video_path)에 저장한다.
